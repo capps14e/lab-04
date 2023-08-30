@@ -4,8 +4,33 @@
 
 <script>window.alert("You Died") </script>
 
+<button onclick="myFunction()">Please Click Here</button>
 
+<p id="Prompt Example"></p>
 
+<script>
+
+function myFunction() {
+
+  let text;
+
+  let user = prompt("Do you seek the guidance of Grace?:", "Y/N");
+
+  if (user == null || user == "") {
+
+    text = "User cancelled the prompt.";
+
+  } else {
+
+    text = "Hello " + person + "! How are you?";
+
+  }
+
+  document.getElementById("Prompt Example").innerHTML = text;
+
+}
+
+</script>
 
 
 <html>
@@ -29,6 +54,8 @@
 </head>
 <body> 
     <script type=”text/javascript” src=”scripts”></script>
+
+    
 
     <body style="background-color:rgb(138, 134, 113);"></body>
     <hr></hr>
