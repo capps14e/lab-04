@@ -4,23 +4,23 @@ console.log('app.js is connected');
 
 
 function myFunction() {
- console.log('proof that we are invoking our function');
+//  console.log('proof that we are invoking our function');
  //we created a variable
-//   let text;
- //we asked the user for grace
-//   let user = prompt('Do you seek the guidance of Grace?:', '');
-//if else conditional where we can check for truthy or falsy value
-//   if (user === null || user === '') {
+  let text;
+//  we asked the user for grace
+  let user = prompt('Do you seek the guidance of Grace?:', '');
+// if else conditional where we can check for truthy or falsy value
+  if (user === null || user === '') {
 
-//     text = 'User cancelled the prompt.';
+    text = 'User cancelled the prompt.';
 
-//   } else {
+  } else {
 
-//     text = 'Hello ' + user + '! How are you?';
+    text = 'Hello ' + user + '! How are you?';
 
-//   }
+  }
 
-//   document.getElementById('promptExample').innerHTML = text;
+  document.getElementById('promptExample').innerHTML = text;
 
 }
 
