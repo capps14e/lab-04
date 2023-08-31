@@ -1,6 +1,21 @@
-
-
-
 .fontColor {
-  color: #E32A0E;
+  color: #e32a0e;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 0.3cm;
+  background-color:rgb(138, 134, 113);
+}
+
+#firstH2 {
+  color: #54E84D;
+}
+
+#secondH2{
+  color: #FF0099;
+}
+
+#thirdH2{
+  color: #327fba ;
 }
