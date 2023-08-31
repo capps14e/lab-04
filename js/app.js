@@ -8,7 +8,7 @@ function myFunction() {
  //we created a variable
   let text;
 //  we asked the user for grace
-  let user = prompt('Do you seek the guidance of Grace?:', '');
+  let user = prompt('What is your name, Tarnished?:', '');
 // if else conditional where we can check for truthy or falsy value
   if (user === null || user === '') {
 
