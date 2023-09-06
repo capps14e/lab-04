@@ -90,7 +90,7 @@ for(let i = 0; i < userInputParsed; i++){
   let image = document.createElement('img');
   // console.log('empty image tag: ',image);
   //we add actual img link. 
-  image.setAttribute('src', 'https://i.imgur.com/kKl9YQf.png');
+  image.setAttribute('src', 'https://imgur.com/gallery/7oGlcpY');
   // is how we get the image to the html it appends each image to the browser 
   //we give the image to the <li>
   listImage.appendChild(image); 
